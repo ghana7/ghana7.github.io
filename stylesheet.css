@@ -1,0 +1,57 @@
+/* colors:
+#539FA0 - light blue
+#325A61 - dark teal
+#ABBE73 - light green
+#F8DE78 - yellow
+#CE8F21 - gold
+*/
+/*
+<div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+<div>Icons made by <a href="http://www.flaticon.com/authors/madebyoliver" title="Madebyoliver">Madebyoliver</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+<div>Icons made by <a href="http://www.flaticon.com/authors/madebyoliver" title="Madebyoliver">Madebyoliver</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+*/
+
+
+body {
+	background-image: url("images/bluebg.png");
+	background-size: cover;
+	text-align:center;
+}
+.mainBox {
+	font-family: 'Montserrat',sans-serif;
+	color:white;
+	display: block;
+	background-color: #EA3C53;
+	width: 13vw;
+	height: 13vw;
+	border-radius:0.5vw;
+	padding:1vw;
+}
+.mainBox img {
+	max-height:50%;
+	max-width:50%;
+}
+h1 {
+	font-family: 'Montserrat',sans-serif;
+	font-size: 10vw;
+}
+#boxWrapper {
+	width:50vw;
+	margin: 0 auto;
+}
+#made {
+	float:left;
+	background-color:#47898A;
+	border:0.25vw solid #3E7879;
+}
+#did {
+	display: inline-block;
+	margin: 0 auto;
+	background-color:#7C8F42;
+	border:0.25vw solid #6D7E3A;
+}
+#am {
+	float:right;
+	background-color:#F3C920;
+	border:0.25vw solid #E4B90C;
+}
