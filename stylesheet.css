@@ -6,7 +6,7 @@ body {
 .mainBox {
 	font-family: 'Montserrat',sans-serif;
 	color:white;
-	display: block;
+	display: inline-block;
 	background-color: #EA3C53;
 	width: 13vw;
 	height: 13vw;
@@ -30,25 +30,22 @@ h1 {
 	font-family: 'Montserrat',sans-serif;
 	font-size: 10vw;
 }
-#boxWrapper {
-	width:50vw;
-	margin: 0 auto;
-}
 #made {
-	float:left;
 	background-color:#47898A;
 	border:0.25vw solid #3E7879;
 }
 #did {
-	display: inline-block;
-	margin: 0 auto;
+	margin-left:2.5vw;
 	background-color:#7C8F42;
 	border:0.25vw solid #6D7E3A;
 }
 #am {
-	float:right;
+	margin-left:2.5vw;
 	background-color:#F3C920;
 	border:0.25vw solid #E4B90C;
+}
+#back {
+	display:none;
 }
 
 /*colors:
