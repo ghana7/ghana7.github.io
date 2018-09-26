@@ -46,28 +46,20 @@ h1 {
 	font-family: 'Montserrat',sans-serif;
 	font-size: 10vw;
 }
-<<<<<<< HEAD
 #boxWrapper {
 	width:75vw;
 	margin: 0 auto;
 }
-=======
->>>>>>> origin/master
 #made {
 	background-color:#47898A;
 	border:0.25vw solid #3E7879;
 }
 #did {
-<<<<<<< HEAD
 	display: inline-block;
-=======
-	margin-left:2.5vw;
->>>>>>> origin/master
 	background-color:#7C8F42;
 	border:0.25vw solid #6D7E3A;
 }
 #am {
-	margin-left:2.5vw;
 	background-color:#F3C920;
 	border:0.25vw solid #E4B90C;
 }
