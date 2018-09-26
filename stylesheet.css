@@ -2,7 +2,18 @@ body {
 	background-image: url("images/bluebg.png");
 	background-size: cover;
 	text-align:center;
+	
 }
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
 .mainBox {
 	font-family: 'Montserrat',sans-serif;
 	font-size:1.5vw;
@@ -11,7 +22,7 @@ body {
 	display: inline-block;
 	background-color: #EA3C53;
 	width: 21vw;
-	height: 13vw;
+	height: 38vh;
 	border-radius:0.5vw;
 	padding:1vw;
 	transition: all 0.25s ease;
@@ -19,9 +30,10 @@ body {
 
 .mainBox:hover {
 	width:25vw;
-	height:15vw;
-	margin-top:-1vw;
+	height:42vh;
+	margin-top:-2vh;
 	transition: all 0.25s ease;
+	display:inline-block;
 }
 .mainBox img {
 	max-height:60%;
@@ -44,18 +56,13 @@ body {
 }
 h1 {
 	font-family: 'Montserrat',sans-serif;
-	font-size: 10vw;
-}
-#boxWrapper {
-	width:75vw;
-	margin: 0 auto;
+	font-size: 20vh;
 }
 #made {
 	background-color:#47898A;
 	border:0.25vw solid #3E7879;
 }
-#did {
-	display: inline-block;
+#done {
 	background-color:#7C8F42;
 	border:0.25vw solid #6D7E3A;
 }
@@ -63,9 +70,7 @@ h1 {
 	background-color:#F3C920;
 	border:0.25vw solid #E4B90C;
 }
-#back {
-	display:none;
-}
+
 
 /*colors:
 #539FA0 - light blue

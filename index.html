@@ -9,20 +9,22 @@
 	</head>
 	<body>
 		<h1>Jimmie Harkins</h1>
-		<div id="boxWrapper">
-			<div class="mainBox noselect" id="made">
+		<div id="wrapper">
+			<div class="mainBox noselect" id="made" onclick="openPage('made')">
 				<p>THINGS I'VE MADE</p>
 				<img src="images/hammer.svg">
 			</div>
-			<div class="mainBox noselect" id="did">
+			<div class="mainBox noselect" id="done" onclick="openPage('done')">
 				<p>THINGS I'VE DONE</p>
 				<img src="images/book.svg">
 			</div>
-			<div class="mainBox noselect" id="am">
+			<div class="mainBox noselect" id="am" onclick="openPage('am')">
 				<p>THINGS I AM</p>
 				<img src="images/user.svg">
 			</div>
 		</div>
+		
+		
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/jquery-ui.min.js" type="text/javascript"></script>
 		<script src="main.js" type="text/javascript"></script>
