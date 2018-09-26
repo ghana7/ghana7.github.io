@@ -25,14 +25,14 @@ html {
 	height: 38vh;
 	border-radius:0.5vw;
 	padding:1vw;
-	transition: all 0.5s linear;
+	transition: all 0.5s ease;
 }
 
 .mainBox:hover {
 	width:25vw;
 	height:42vh;
 	margin-top:-2vh;
-	transition: all 0.5s linear;
+	transition: all 0.5s ease;
 	display:inline-block;
 }
 .mainBox img {
@@ -48,14 +48,14 @@ html {
 .open, .open:hover {
 	width: 98vw;
 	height: 98vh;
-	transition: all 0.5s linear;
+	transition: all 0.5s ease;
 	margin-top: -50vh;
 	cursor:default;
 }
 
 .invisible, .invisible:hover {
 	margin-top:-50vh;
-	transition: all 0.5s linear;
+	transition: all 0.5s ease;
 	width:0;
 	opacity:0;
 	margin:0;
@@ -69,7 +69,7 @@ html {
 .closed, .closed:hover {
 	display:none;
 	margin-top:-50vh;
-	transition: all 0.5s linear;
+	transition: all 0.5s ease;
 	width:0;
 	
 	margin:0;
@@ -78,7 +78,7 @@ html {
 #backButton.closed {
 	margin-top:0;
 	top: -7vw;
-	transition: top 0.5s linear;
+	transition: top 0.5s ease;
 	display:inline-block;
 }
 /*makes it so that text in the 3 main boxes can't be selected */
@@ -126,7 +126,7 @@ h1 {
 	color:white;
 	padding-top:2.6vw;
 	top:-2.4vw;
-	transition: top 0.5s linear;
+	transition: top 0.5s ease;
 	left:1vw;
 	cursor:pointer;
 }
