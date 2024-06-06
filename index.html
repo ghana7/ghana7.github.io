@@ -5,179 +5,157 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jimmie Harkins</title>
     <!--palette: https://lospec.com/palette-list/curiosities by sukinapan-->
-    <style>
-        body {
-            margin: 0;
-            background-color: #ffeecc;
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            height: 99vh;
-        }
-        * {
-            margin-top: 0.5rem;
-            margin-bottom: 0.5rem;
-            color: #46425e;
-        }
-        h1 {
-            margin-left: 0.25rem;
-        }
-        h2, p {
-            margin-left: 0.5rem;
-        }
-        h3 {
-            margin-left: 1rem;
-        }
-        a {
-            color: #15788c;
-        }
-        a:hover {
-            color: #00b9be;
-        }
-        a:focus {
-            color: #ff6973;
-        }
-    </style>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <h1>Jimmie Harkins</h1>
-    <p>🟡 - unfinished/demos</p>
-    <p>🟢 - personal favorites</p>
+    <p class="h2">🟡 - unfinished/demos</p>
+    <p class="h2">🟢 - personal favorites</p>
     <div>
         <h2>Games</h2>
-        <ul>
-            <li>
-                <a href="https://ghana7.itch.io/colorspace" target="_blank">colorspace</a> 🟢 (May 2024)
-            </li>
-            <li>
-                <a href="https://ghana7.github.io/flashlight/" target="_blank">f(LASHLIGHT)</a> 🟡 (Feb 2024)
-            </li>
-            <li>
-                <a href="https://lions-ruby.vercel.app/" target="_blank">Lions Game</a> (Dec 2023 - Jan 2024)
-            </li>
-            <li>
-                <a href="https://ghana7.github.io/snad/" target="_blank">snad (powder racer)</a> 🟡 (Apr 2022)
-            </li>
-            <li>
-                <a href="https://gamejolt.com/games/experimentS/275327" target="_blank">Experiment S</a> 🟢 (Aug 2017)
-            </li>
-        </ul>
+        <p class="project">
+            <a href="https://ghana7.itch.io/one-hundred" target="_blank">one hundred</a> (May 2024)
+        </p>
     </div>
+    <p class="project">
+        <a href="https://ghana7.itch.io/colorspace" target="_blank">colorspace</a> 🟢 (May 2024)
+    </p>
+    <p class="project">
+        <a href="https://ghana7.github.io/flashlight/" target="_blank">f(LASHLIGHT)</a> 🟡 (Feb 2024)
+    </p>
+    <p class="project">
+        <a href="https://lions-ruby.vercel.app/" target="_blank">Lions Game</a> (Dec 2023 - Jan 2024)
+    </p>
+    <p class="project">
+        <a href="https://ghana7.github.io/snad/" target="_blank">snad (powder racer)</a> 🟡 (Apr 2022)
+    </p>
+    <p class="project">
+        <a href="https://gamejolt.com/games/experimentS/275327" target="_blank">Experiment S</a> 🟢 (Aug 2017)
+    </p>
     <div>
         <h2>Puzzles</h2>
         <h3>
-            Connections
+            Connections 
+            <a onclick="toggleConnections()" id="connectionsShowHideButton">[Show]</a>
         </h3>
-        <ul>
-            <li>
-                <a href="https://connectionsplus.io/game/GkZPKb" target="_blank">Secret Fifth</a> (Feb 2024)
-            </li>
-            <li>
-                <a href="https://connectionsplus.io/game/KlNz0b" target="_blank">Big and Hard</a> (Feb 2024)
-            </li>
-            <li>
-                <a href="https://connectionsplus.io/game/piuInv" target="_blank">Rather warlike</a> (Feb 2024)
-            </li>
-            <li>
-                <a href="https://connectionsplus.io/game/LGRqXx" target="_blank">Off</a> 🟢 (Feb 2024)
-            </li>
-            <li>
-                <a href="https://connectionsplus.io/game/iiNo99" target="_blank">🔗 (emoji)</a> 🟢 (Feb 2024)
-            </li>
-            <li>
-                <a href="https://connectionsplus.io/game/kMC8NJ" target="_blank">Pokemon</a> (Feb 2024)
-            </li>
-            <li>
-                <a href="https://connectionsplus.io/game/8LBmaC" target="_blank">Game name? Name game!</a> (Feb 2024)
-            </li>
-            <li>
-                <a href="https://connectionsplus.io/game/WEPhwx" target="_blank">Ingredients</a> 🟢 (Feb 2024)
-            </li>
-            <li>
-                <a href="https://connectionsplus.io/game/98ujPX" target="_blank">There's no red category</a> (Feb 2024)
-            </li>
-            <li>
-                <a href="https://connectionsplus.io/game/Rvkirj" target="_blank">Don't fall for it</a> (Feb 2024)
-            </li>
-            <li>
-                <a href="https://connectionsplus.io/game/Dlzmdq" target="_blank">Classic</a> 🟢 (Feb 2024)
-            </li>
-            <li>
-                <a href="https://connectionsplus.io/game/Jl0QPT" target="_blank">Nonsense</a> 🟢 (Feb 2024)
-            </li>
-            <li>
-                <a href="https://connectionsplus.io/game/76zojT" target="_blank">Neoclassic</a> (Feb 2024)
-            </li>
-            <li>
-                <a href="https://connectionsplus.io/game/oVjaaL" target="_blank">Very alarming</a> (Feb 2024)
-            </li>
-            <li>
-                <a href="https://connectionsplus.io/game/pJteEB" target="_blank">🟧: Presume, Adverts, Hikers, Rasp</a> (Feb 2024)
-            </li>
-            <li>
-                <a href="./itGetsBigger.png" target="_blank">It Gets Bigger</a> <small>[non-interactive]</small> 🟢 (Feb 2024)
-            </li>
-            <li>
-                <a href="https://connectionsplus.io/game/ZC8RpF" target="_blank">Interwoven</a> 🟢 (Mar 2024)
-            </li>
-            <li>
-                <a href="https://connectionsplus.io/game/hZmShI" target="_blank">Emitted</a> (Mar 2024)
-            </li>
-            <li>
-                <a href="https://connectionsplus.io/game/uaRCeh" target="_blank">Connection von Connection</a> 🟢 (Apr 2024)
-            </li>
-            <li>
-                <a href="https://connectionsplus.io/game/gxH6Bd" target="_blank">rip bart 😔✊</a> (Apr 2024)
-            </li>
-            <li>
-                <a href="https://connectionsplus.io/game/jFQNlX" target="_blank">Authoritative</a> 🟢 (Apr 2024)
-            </li>
-            <li>
-                <a href="https://connectionsplus.io/game/Pv7yUV" target="_blank">As Seen on TV</a> (May 2024)
-            </li>
-            
-        </ul>
+        <p class="project connectionsItem">
+            <a href="https://connectionsplus.io/game/Pv7yUV" target="_blank">As Seen on TV</a> (May 2024)
+        </p>
     </div>
+    <p class="project connectionsItem">
+        <a href="https://connectionsplus.io/game/jFQNlX" target="_blank">Authoritative</a> 🟢 (Apr 2024)
+    </p>
+    <p class="project connectionsItem">
+        <a href="https://connectionsplus.io/game/gxH6Bd" target="_blank">rip bart 😔✊</a> (Apr 2024)
+    </p>
+    <p class="project connectionsItem">
+        <a href="https://connectionsplus.io/game/uaRCeh" target="_blank">Connection von Connection</a> 🟢 (Apr 2024)
+    </p>
+    <p class="project connectionsItem">
+        <a href="https://connectionsplus.io/game/hZmShI" target="_blank">Emitted</a> (Mar 2024)
+    </p>
+    <p class="project connectionsItem">
+        <a href="https://connectionsplus.io/game/ZC8RpF" target="_blank">Interwoven</a> 🟢 (Mar 2024)
+    </p>
+    <p class="project connectionsItem">
+        <a href="./itGetsBigger.png" target="_blank">It Gets Bigger</a> <small>[non-interactive]</small> 🟢 (Feb 2024)
+    </p>
+    <p class="project connectionsItem">
+        <a href="https://connectionsplus.io/game/pJteEB" target="_blank">🟧: Presume, Adverts, Hikers, Rasp</a> (Feb 2024)
+    </p>
+    <p class="project connectionsItem">
+        <a href="https://connectionsplus.io/game/oVjaaL" target="_blank">Very alarming</a> (Feb 2024)
+    </p>
+    <p class="project connectionsItem">
+        <a href="https://connectionsplus.io/game/76zojT" target="_blank">Neoclassic</a> (Feb 2024)
+    </p>
+    <p class="project connectionsItem">
+        <a href="https://connectionsplus.io/game/Jl0QPT" target="_blank">Nonsense</a> 🟢 (Feb 2024)
+    </p>
+    <p class="project connectionsItem">
+        <a href="https://connectionsplus.io/game/Dlzmdq" target="_blank">Classic</a> 🟢 (Feb 2024)
+    </p>
+    <p class="project connectionsItem">
+        <a href="https://connectionsplus.io/game/Rvkirj" target="_blank">Don't fall for it</a> (Feb 2024)
+    </p>
+    <p class="project connectionsItem">
+        <a href="https://connectionsplus.io/game/98ujPX" target="_blank">There's no red category</a> (Feb 2024)
+    </p>
+    <p class="project connectionsItem">
+        <a href="https://connectionsplus.io/game/WEPhwx" target="_blank">Ingredients</a> 🟢 (Feb 2024)
+    </p>
+    <p class="project connectionsItem">
+        <a href="https://connectionsplus.io/game/8LBmaC" target="_blank">Game name? Name game!</a> (Feb 2024)
+    </p>
+    <p class="project connectionsItem">
+        <a href="https://connectionsplus.io/game/kMC8NJ" target="_blank">Pokemon</a> (Feb 2024)
+    </p>
+    <p class="project connectionsItem">
+        <a href="https://connectionsplus.io/game/iiNo99" target="_blank">🔗 (emoji)</a> 🟢 (Feb 2024)
+    </p>
+    <p class="project connectionsItem">
+        <a href="https://connectionsplus.io/game/LGRqXx" target="_blank">Off</a> 🟢 (Feb 2024)
+    </p>
+    <p class="project connectionsItem">
+        <a href="https://connectionsplus.io/game/piuInv" target="_blank">Rather warlike</a> (Feb 2024)
+    </p>
+    <p class="project connectionsItem">
+        <a href="https://connectionsplus.io/game/KlNz0b" target="_blank">Big and Hard</a> (Feb 2024)
+    </p>
+    <p class="project connectionsItem">
+        <a href="https://connectionsplus.io/game/GkZPKb" target="_blank">Secret Fifth</a> (Feb 2024)
+    </p>
     <div>
         <h3>
             Crosswords
         </h3>
-        <ul>
-            <li>
-                <a href="https://crosshare.org/crosswords/kqFkyNzGS9PsatcjWoHz/puzzle" target="_blank">puzzle</a> (Apr 2023)
-            </li>
-        </ul>
+        <p class="project">
+            <a href="https://crosshare.org/crosswords/kqFkyNzGS9PsatcjWoHz/puzzle" target="_blank">puzzle</a> (Apr 2023)
+        </p>
     </div>
     <div>
         <h3>
-            Hunt-style <a href="https://blog.vero.site/post/puzzlehunts" target="_blank">(?)</a>
+            Hunt-style <a href="https://blog.vero.site/post/puzzlehunts" target="_blank">[?]</a>
         </h3>
-        <ul>
-            <li>
-                <a href="https://pokepast.es/871d1f22be95d37f" target="_blank">Oak's Strange Team</a> 🟢 (Jan 2024)
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <a href="https://docs.google.com/document/d/1f8gy47Lyhho1kUVMZffrjy1wSHnsbbgjBxOb-MDDs50/edit?usp=sharing" target="_blank">What do Nuwang, Litham Indigo, and Autumn Twilight have in common?</a> (Mar 2024)
-            </li>
-        </ul>
+        <p class="project">
+            <a href="https://docs.google.com/document/d/1f8gy47Lyhho1kUVMZffrjy1wSHnsbbgjBxOb-MDDs50/edit?usp=sharing" target="_blank">What do Nuwang, Litham Indigo, and Autumn Twilight have in common?</a> (Mar 2024)
+        </p>
+        <p class="project">
+            <a href="https://pokepast.es/871d1f22be95d37f" target="_blank">Oak's Strange Team</a> 🟢 (Jan 2024)
+        </p>
     </div>
     <div>
-    <h2>Music</h2>
-        <ul>
-            <li>
-                <a href="https://musescore.com/user/30460414/sheetmusic" target="_blank">Arrangements for marching band</a> (2018 - present)
-            </li>
-        </ul>
+        <h2>Music</h2>
+        <p class="project">
+            <a href="https://musescore.com/user/30460414/sheetmusic" target="_blank">Arrangements for marching band</a> (2018 - present)
+        </p>
     </div>
     <div>
-    <h2>Other</h2>
-        <ul>
-            <li>
-                <a href="https://www.curseforge.com/members/ghana7/projects" target="_blank">Minecraft Mods</a> 🟢 (2020-2021)
-            </li>
-        </ul>
+        <h2>Other</h2>
+        <p class="project">
+            <a href="https://www.curseforge.com/members/ghana7/projects" target="_blank">Minecraft Mods</a> 🟢 (2020-2021)
+        </p>
+    </div>
+    <div>
+        <h2>Words</h2>
+        <p class="project">
+            <a href="./words/difficulty.html">Why Games Shouldn't Have Difficulty Settings</a> 🟢 (June 2024)
+        </p>
     </div>
 </body>
+<script>
+    const connectionsShowHideButton = document.querySelector("#connectionsShowHideButton")
+    const connectionsItems = [...document.querySelectorAll(".connectionsItem")]
+    let showConnections = false
+    const toggleConnections = () => {
+        showConnections = !showConnections
+        if(showConnections) {
+            connectionsItems.forEach(el => el.style.display = "list-item")
+            connectionsShowHideButton.innerHTML = "[Hide]"
+        } else {
+            connectionsItems.forEach(el => el.style.display = "none")
+            connectionsShowHideButton.innerHTML = "[Show]"
+        }
+    }
+</script>
 </html>

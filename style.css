@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    background-color: #ffeecc;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 99vh;
+}
+* {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    color: #46425e;
+}
+h1 {
+    margin-left: 0.25rem;
+}
+h2, .h2 {
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+h3 {
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+a {
+    color: #15788c;
+}
+a:hover {
+    color: #00b9be;
+}
+a:focus {
+    color: #ff6973;
+}
+p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.project {
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-left: 1.25rem;
+    margin-left: 0;
+    margin-right: 0;
+}
+#connectionsShowHideButton {
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.connectionsItem {
+    display: none;
+}
